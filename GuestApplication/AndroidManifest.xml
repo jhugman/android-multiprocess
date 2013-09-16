@@ -6,17 +6,16 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="18" />
 
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" android:process="dummy.parasite" android:persistent="true" android:allowTaskReparenting="true">
+        android:theme="@style/AppTheme">
         <activity
             android:name="dummy.guest.MainGuestActivity"
-            android:process="dummy.parasite"
-            android:label="@string/app_name" android:multiprocess="true" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

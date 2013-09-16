@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parasite Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="launch_explicit">Launch Explicit</string>
+    <string name="launch_implicit">Launch Implicit</string>
+
+</resources>

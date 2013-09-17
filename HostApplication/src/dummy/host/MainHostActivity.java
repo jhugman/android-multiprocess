@@ -15,7 +15,7 @@ public class MainHostActivity extends Activity {
         setContentView(R.layout.activity_main_host);
 
         TextView tv = (TextView) findViewById(R.id.process_id);
-        int parasitePid = getIntent().getIntExtra("parasitePid", 0);
+        int parasitePid = getIntent().getIntExtra("guestPid", 0);
 
         int hostPid = android.os.Process.myPid();
         tv.setText("" + hostPid + ": " + (hostPid == parasitePid));

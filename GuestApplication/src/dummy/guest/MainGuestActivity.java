@@ -43,7 +43,7 @@ public class MainGuestActivity extends Activity {
     }
 
     protected void launchIntent(Intent intent) {
-        intent.putExtra("parasitePid", Process.myPid());
+        intent.putExtra("guestPid", Process.myPid());
 
         startActivity(intent);
     }
